@@ -19,4 +19,10 @@ public class ApplicationController {
     public  String company(){
         return "TCS AS IT IS";
     }
+
+    @GetMapping("/service")
+    public  String service()
+    {
+        return "WELCOME TO CSI";
+    }
 }
